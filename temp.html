@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature-Coverter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/thermometer.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="nav">
+          <div class="logo">
+            <img src="images/thermometer.png" alt="" height="100%" />
+          </div>
+          <div class="heading">
+            <h1>CONVERT TEMPERATURE</h1>
+          </div>
+        </div>
+        <div class="main">
+          <div class="form">
+            <h2>Enter Temperature</h2>
+            <input type="number" placeholder="Enter Temperature" id="input" />
+
+            <select name="degree" id="degree">
+              <option value="">Choose Unit</option>
+              <option value="Fahrenheit">Fahrenheit</option>
+              <option value="Celcius">Celcius</option>
+            </select>
+
+            <div class="button">
+              <input
+                type="button"
+                id="button"
+                onclick="convert();"
+                value="Convert"
+              />
+            </div>
+            <h2>Result</h2>
+            <input type="text" placeholder="Converted" id="output" readonly />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(247, 247, 131),
+      white,
+      rgb(104, 200, 237)
+    );
+    height: 100vh;
+    color: rgb(33, 172, 228);
+    background-repeat: no-repeat;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -5px -5px 5px rgb(33, 172, 228);
+  }
+  .logo {
+    height: 20vh;
+    box-shadow: 5px 5px 5px rgb(104, 200, 237);
+    border-radius: 50%;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    gap: 5%;
+  }
+  .main img {
+    border-radius: 50%;
+  }
+  .form {
+    margin-top: 5vh;
+    padding: 4%;
+    border-radius: 30px;
+    background-color: transparent;
+    box-shadow: 15px 15px 15px grey;
+    width: 40%;
+    border: 5px solid black;
+  }
+  h2 {
+    color: rgb(26, 0, 4);
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  h1 {
+    text-shadow: 2px 2px 2px black;
+  }
+  .button {
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  #button {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px;
+    width: 40%;
+  }
+  #button:active {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  #input {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  #output {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+  .form select {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 3%;
+    font-style: italic;
+  }
